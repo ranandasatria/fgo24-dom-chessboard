@@ -9,7 +9,7 @@ This is a lightweight JavaScript application that dynamically generates an 8x8 c
 ## Getting Started
 1. Clone this project:
 ```
-git clone https://github.com/ranandasatria/fgo24-dom-traffic-light
+git clone https://github.com/ranandasatria/fgo24-dom-chessboard
 ```
 
 2. Install the depedencies:
