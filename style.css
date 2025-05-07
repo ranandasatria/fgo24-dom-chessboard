@@ -3,6 +3,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-image: url(src/background.png);
+    background-repeat: no-repeat;
+    background-size:cover
 }
 
 .container {
@@ -12,15 +15,17 @@ body {
     justify-content: center;
     width: 100vh;
     height: 100vh;
+   
 }
 
 .chessboard {
     display: grid;
     grid-template-columns: repeat(8, 50px);
-    grid-template-rows: repeat(8, 50px);
+    /* grid-template-rows: repeat(8, 50px); */
     /* width: 500px;
     height: 500px; */
     border: 1px solid black;
+    box-shadow: rgba(177, 5, 5, 0.35) 0px 5px 15px;
 }
 
 .square {
